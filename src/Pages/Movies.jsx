@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Nav from "../Components/Nav";
 import axios from "../api";
 import { API_KEY } from "../requests";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../Context/ThemeContext";
 
 function Movies() {
   const [featuredMovie, setFeaturedMovie] = useState(null);
