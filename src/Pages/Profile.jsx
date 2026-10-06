@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Nav from "../Components/Nav";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../Context/ThemeContext";
 
 function Profile() {
   const navigate = useNavigate();
